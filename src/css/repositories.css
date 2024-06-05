@@ -1,0 +1,46 @@
+/* REPOSITORIES */
+
+.container .profile-data .repositories {
+    width: 100%;
+    background-color: #24292e41;
+    text-align: center;
+    padding: 25px;
+}
+
+.container .profile-data .repositories h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container .profile-data .repositories ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .profile-data .repositories ul li a {
+    padding: 12px 15px;
+    border: 1px solid rgb(68, 68, 68);
+    margin: 20px;
+    display: block;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;   
+}
+
+.container .profile-data .repositories ul li a .repository-infos {
+    margin-top: 4px;
+    gap: 10px;
+}
+.container .profile-data .repositories ul li a .repository-infos li {
+    padding: 6px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 5px;
+}
+
+.container .profile-data .repositories ul li a:hover{
+    background-color: #24292e;
+    color: #fff;
+}
+.container .profile-data .repositories ul li a:hover .repository-infos li {
+    background-color: rgba(0, 132, 255, 0.452);
+}

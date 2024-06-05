@@ -1,0 +1,79 @@
+@media (max-width: 1280px) {
+    .container {
+        width: 60%;
+    }
+    
+    .container header {
+        width: 100%;
+    }
+
+    .container header h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .container .profile-data .info {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container .profile-data .info img{
+        width: 55%;
+    }
+}
+
+@media (max-width: 900px){
+    .container .profile-data .info .data {
+        width: 80%;
+    }
+    .container header #input-search, .container header #btn-search {
+        width: 80%;
+    }
+    .container .profile-data .info img{
+        width: 60%;
+        padding: 0;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    .container .profile-data .info .data h1 {
+        font-size: 20px;
+    }
+    .container .profile-data .info .data p {
+        font-size: 13px;
+    }
+    .container .profile-data .info .data .follows {
+        flex-wrap: wrap;
+    }
+    
+    main {
+        padding: 15% 0;
+    }
+
+    .container .profile-data .info img {
+        width: 70%;
+    }
+    
+    .container .profile-data .events h2 {
+        font-size: 20px;
+    }
+    .container .profile-data .events ul li a {
+        font-size: 15px;
+        width: 50%;
+    }
+    .container .profile-data .events ul li span {
+        font-size: 12px;
+        width: 50%;
+    }
+    .container .profile-data .events ul li {
+        padding: 0px;
+    }
+}
+@media (max-width: 350px) {
+    .container .profile-data .events ul li a {
+        font-size: 13px;
+    }
+    .container .profile-data .events ul li span {
+        font-size: 10px;
+    }
+}

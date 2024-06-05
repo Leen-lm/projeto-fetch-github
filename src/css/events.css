@@ -1,0 +1,37 @@
+/* EVENTS */
+
+.container .profile-data .events{
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container .profile-data .events h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.container .profile-data .events ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px;   
+    border: 1px solid rgb(68, 68, 68); 
+    border-radius: 7px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .profile-data .events ul li a {
+    width: 60%;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;   
+}
+
+.container .profile-data .events ul li a:hover{
+    background-color: #24292e;
+    color: #fff;
+}
